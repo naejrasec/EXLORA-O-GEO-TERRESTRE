@@ -33,7 +33,7 @@ public class ItensPicker : MonoBehaviour { // Nome da Classe
 
     private void Update()
     {
-        scoreText.text = "Itens: "+Itens.ToString();
+        scoreText.text = "Animais Soltos: "+Itens.ToString();
         liveText.text = "Life: "+live.ToString();
         UpdateHealthBar();
        
